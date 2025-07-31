@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jiayin Meng"
-description              : "If you love cats, we are friends."
+description              : "A cat."
 repository               : "mizoreto/mizoreto.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Jiayin Meng"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/avatar.jpeg"
   bio              : "MSCS @ UC San Diego<br>BSCS @ UIUC"
   location         : "San Diego, CA, USA"
   employer         :
