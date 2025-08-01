@@ -18,9 +18,45 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I'm currently a Master's student in Computer Science at the University of California, San Diego, advised by Prof. [Tzu-Mao Li](https://cseweb.ucsd.edu/~tzli/). I received my B.S. degree in Computer Science, with a minor in Physics, from the University of Illinois Urbana-Champaign.
 
+I'm always open to connecting and sharing ideas. Please feel free to reach out!
+
 # Educations
-- *2024.09 - 2026.06*, University of California, San Diego, M.S. in Computer Science
-- *2021.01 - 2024.05*, University of Illinois Urbana-Champaign, B.S. in Computer Science, minor in Physics, GPA: 3.95
+<div style="display: flex; align-items: center; margin-bottom: 1em;">
+  <img src="images/educations/ucsd_logo.jpeg" width="60" style="margin-right: 30px;">
+  <div>
+    <strong>University of California, San Diego</strong><br>
+    <span style="color: gray;">2024.09 – 2026.06</span><br>
+    M.S. in Computer Science
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 1em;">
+  <img src="images/educations/uiuc_logo.jpeg" width="60" style="margin-right: 30px;">
+  <div>
+    <strong>University of Illinois Urbana-Champaign</strong><br>
+    <span style="color: gray;">2021.01 – 2024.05</span><br>
+    B.S. in Computer Science, minor in Physics, GPA: 3.95
+  </div>
+</div>
+
+# Industries
+<div style="display: flex; align-items: center; margin-bottom: 1em;">
+  <img src="images/industries/aws_logo.jpeg" width="60" style="margin-right: 30px;">
+  <div>
+    <strong>Amazon Web Services (AWS)</strong><br>
+    <span style="color: gray;">2024.06 – 2024.09 | Seattle, WA</span><br>
+    Software Development Engineer Intern 
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 1em;">
+  <img src="images/industries/aws_logo.jpeg" width="60" style="margin-right: 30px;">
+  <div>
+    <strong>Amazon Web Services (AWS)</strong><br>
+    <span style="color: gray;">2023.06 – 2023.08 | Seattle, WA</span><br>
+    Software Development Engineer Intern 
+  </div>
+</div>
 
 # Misc
 I enjoy photography, hiking, billiards, chess, and being a cat lover😼.
@@ -30,8 +66,8 @@ I enjoy photography, hiking, billiards, chess, and being a cat lover😼.
 🧶 My cat: [@_yukiiii_i](https://www.instagram.com/_yukiiii_i/)
 
 
-<!-- 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+
+<!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
 # 🔥 News

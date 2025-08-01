@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Jiayin Meng"
-  avatar           : "images/avatar.jpeg"
+  avatar           : "images/avatar_1.png"
   bio              : "MSCS @ UC San Diego<br>BSCS @ UIUC"
   location         : "San Diego, CA, USA"
   employer         :
