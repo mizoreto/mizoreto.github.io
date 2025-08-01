@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I'm currently a Master's student in Computer Science at the University of California, San Diego, advised by Prof. [Tzu-Mao Li](https://cseweb.ucsd.edu/~tzli/). I received my B.S. degree in Computer Science, with a minor in Physics, from the University of Illinois Urbana-Champaign.
+I'm a rising second-year Master's student in Computer Science at the University of California, San Diego, advised by Prof. [Tzu-Mao Li](https://cseweb.ucsd.edu/~tzli/). I received my B.S. degree in Computer Science, with a minor in Physics, from the University of Illinois Urbana-Champaign. I'm exploring computer graphics as a means to reconstruct, simulate, and reinterpret the physical world through computation. My current interests include rendering, perception, and scalable graphics systems, with growing curiosity in XR and robotics.
 
 I'm always open to connecting and sharing ideas. Please feel free to reach out!
 
@@ -40,26 +40,36 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
 </div>
 
 # Industries
-<div style="display: flex; align-items: center; margin-bottom: 1em;">
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="images/industries/aws_logo.jpeg" width="60" style="margin-right: 30px;">
   <div>
     <strong>Amazon Web Services (AWS)</strong><br>
     <span style="color: gray;">2024.06 – 2024.09 | Seattle, WA</span><br>
-    Software Development Engineer Intern 
+    Software Development Engineer Intern<br>
+    <ul style="margin-top: 0.5em;">
+      <li>Designed and built an automated benchmarking framework, reducing a 1-2 day manual setup process to a 2-3 minute one-command execution, saving significant engineering time.</li>
+      <li>Developed a resource cleanup handler to simplify teardown of benchmarking environments, streamlining post-test workflows.</li>
+      <li><strong>Technologies</strong>: Python, Lambda, Step Functions, CDK, EC2</li>
+    </ul>
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 1em;">
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="images/industries/aws_logo.jpeg" width="60" style="margin-right: 30px;">
   <div>
     <strong>Amazon Web Services (AWS)</strong><br>
     <span style="color: gray;">2023.06 – 2023.08 | Seattle, WA</span><br>
     Software Development Engineer Intern 
+    <ul style="margin-top: 0.5em;">
+      <li>Developed a diagnostic library for Network Load Balancers that resolved noisy mismatch issues in dependency auditing systems, cutting false positive rate by 80%.</li>
+      <li>Implemented intelligent mismatch snapshot adjustment via Amazon S3 client APIs, enabling customizable time windows for more accurate and timely debugging.</li>
+      <li><strong>Technologies</strong>: Python, Amazon S3, EC2, SQL</li>
+    </ul>
   </div>
 </div>
 
 # Misc
-I enjoy photography, hiking, billiards, chess, and being a cat lover😼.
+I enjoy photography, hiking, billiards, chess, and being a cat lover😼. I also like watching movies and reading in my free time.
 
 📸 My photography: [@mizoreto](https://www.instagram.com/mizoreto/)
 
