@@ -69,7 +69,7 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
 </div>
 
 # Misc
-I enjoy photography, hiking, billiards, chess, and being a cat lover😼. I also like watching movies and reading in my free time.
+I enjoy photography, hiking, playing pool and chess, and spending time with my cat😼. I also like watching movies and reading in my free time.
 
 📸 My photography: [@mizoreto](https://www.instagram.com/mizoreto/)
 
