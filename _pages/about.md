@@ -70,6 +70,16 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
 
 # Projects
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Autonomous Driving Forecasting</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Ego-Agent Trajectory Prediction in Argoverse 2** [Python, PyTorch]
+
+Built an [ADAPT](https://kuis-ai.github.io/adapt/)-inspired deep learning model for ego-agent trajectory prediction in a Kaggle competition using a modified Argoverse 2 dataset. The model captures temporal and social context through LSTM and attention modules, and generates long-horizon forecasts via coarse-to-fine endpoint conditioning.
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">3D Platformer Game</div><img src='images/projects/crystal_quest_cover.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
