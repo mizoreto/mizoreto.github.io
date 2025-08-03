@@ -73,7 +73,7 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">3D Platformer Game</div><img src='images/projects/crystal_quest_cover.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Crystal Quest** [Unreal Engine, Blueprint Visual Scripting]
+**[Crystal Quest](#)** [Unreal Engine, Blueprint Visual Scripting]
 
 - Designed and developed a 3D third-person platformer game in Unreal Engine using Blueprint, with a structured level progression from safe zones to increasingly challenging enemy encounters.
 - Created a smooth onboarding experience in the base area with no enemies, allowing players to practice movement and jumping while collecting coins for bonus points.

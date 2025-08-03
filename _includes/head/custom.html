@@ -1,13 +1,13 @@
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-<link rel="manifest" href="images/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<link rel="manifest" href="/images/site.webmanifest">
 
 <meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
-<meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="msapplication-TileImage" content="/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="/images/browserconfig.xml?v=M44lzPylqQ">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="assets/css/academicons.css"/>
+<link rel="stylesheet" href="/assets/css/academicons.css"/>
 
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
@@ -19,5 +19,33 @@
   });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Find the Crystal Quest link
+  const crystalQuestLink = document.querySelector('a[href="#"]');
+  if (crystalQuestLink && crystalQuestLink.textContent.includes('Crystal Quest')) {
+    crystalQuestLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      // Navigate to the project page in the current window
+      window.location.href = '/projects/crystal-quest/';
+    });
+  }
+  
+  // Handle navigation links
+  const navLinks = document.querySelectorAll('.masthead__menu-item a');
+  navLinks.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      // If we're on a project page and the link points to homepage anchors
+      if (window.location.pathname !== '/' && href.startsWith('/#')) {
+        e.preventDefault();
+        // Navigate to homepage with the anchor
+        window.location.href = href;
+      }
+    });
+  });
+});
+</script>
 
 <!-- end custom head snippets -->
