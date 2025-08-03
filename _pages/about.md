@@ -20,12 +20,12 @@ I'm a rising second-year Master's student in Computer Science at the University 
 
 I'm always open to connecting and sharing ideas. Please feel free to reach out!
 
-# Educations
+# Education
 <div style="display: flex; align-items: center; margin-bottom: 1em;">
   <img src="images/educations/ucsd_logo.jpeg" width="60" style="margin-right: 30px;">
   <div>
     <strong>University of California, San Diego</strong><br>
-    <span style="color: gray;">2024.09 – 2026.06</span><br>
+    <span style="color: gray;">Sep 2024 – Jun 2026</span><br>
     M.S. in Computer Science
   </div>
 </div>
@@ -34,17 +34,17 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
   <img src="images/educations/uiuc_logo.jpeg" width="60" style="margin-right: 30px;">
   <div>
     <strong>University of Illinois Urbana-Champaign</strong><br>
-    <span style="color: gray;">2021.01 – 2024.05</span><br>
+    <span style="color: gray;">Jan 2021 – May 2024</span><br>
     B.S. in Computer Science, minor in Physics, GPA: 3.95
   </div>
 </div>
 
-# Industries
+# Experience
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="images/industries/aws_logo.jpeg" width="60" style="margin-right: 30px;">
   <div>
     <strong>Amazon Web Services (AWS)</strong><br>
-    <span style="color: gray;">2024.06 – 2024.09 | Seattle, WA</span><br>
+    <span style="color: gray;">Jun 2024 – Sep 2024 | Seattle, WA</span><br>
     Software Development Engineer Intern<br>
     <ul style="margin-top: 0.5em;">
       <li>Designed and built an automated benchmarking framework, reducing a 1-2 day manual setup process to a 2-3 minute one-command execution, saving significant engineering time.</li>
@@ -58,7 +58,7 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
   <img src="images/industries/aws_logo.jpeg" width="60" style="margin-right: 30px;">
   <div>
     <strong>Amazon Web Services (AWS)</strong><br>
-    <span style="color: gray;">2023.06 – 2023.08 | Seattle, WA</span><br>
+    <span style="color: gray;">Jun 2023 – Aug 2023 | Seattle, WA</span><br>
     Software Development Engineer Intern 
     <ul style="margin-top: 0.5em;">
       <li>Developed a diagnostic library for Network Load Balancers that resolved noisy mismatch issues in dependency auditing systems, cutting false positive rate by 80%.</li>

@@ -10,7 +10,16 @@ layout: default
   <img src="/images/projects/crystal_quest_cover.jpg" alt="Crystal Quest" style="max-width: 65%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
-# Crystal Quest
+<h1 style="font-size: 1.75rem; font-weight: 700;">Crystal Quest</h1>
+
+## Introduction Video
+
+<div style="text-align: center;">
+  <video width="90%" controls preload="metadata" style="border-radius: 8px; margin: 20px 0;">
+    <source src="/images/projects/crystal_quest.mp4" type="video/mp4">
+    <p>Your browser does not support the video tag. <a href="/images/projects/crystal_quest.mp4" target="_blank">Click here to download the video</a></p>
+  </video>
+</div>
 
 ## Project Overview
 
@@ -26,10 +35,4 @@ layout: default
 - Developed core systems including health, coin collection, and failure-reset logic, with a final victory screen showing total time and coins collected.
 - Balanced gameplay to support stealth, combat, and exploration-based strategies for varied playstyles.
 
-## Introduction Video
-
-<video width="100%" controls preload="metadata" style="border-radius: 8px; margin: 20px 0;">
-  <source src="/images/projects/crystal_quest.mp4" type="video/mp4">
-  <p>Your browser does not support the video tag. <a href="/images/projects/crystal_quest.mp4" target="_blank">Click here to download the video</a></p>
-</video>
 
