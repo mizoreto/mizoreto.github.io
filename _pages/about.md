@@ -75,17 +75,7 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
 
 **[Crystal Quest](#)** [Unreal Engine, Blueprint Visual Scripting]
 
-- Designed and developed a 3D third-person platformer game in Unreal Engine using Blueprint, with a structured level progression from safe zones to increasingly challenging enemy encounters.
-- Created a smooth onboarding experience in the base area with no enemies, allowing players to practice movement and jumping while collecting coins for bonus points.
-- Built intuitive level guidance using visual cues like coins, terrain structure, and wind streams to direct players without needing a minimap or explicit UI.
-- Implemented AI enemies with distinct behaviors:
-  - *Patrolling guards* in the town
-  - *Mortar defenses* guarding fortress towers
-  - *Vision-based wizards* in the forest, requiring stealth and strategy
-- Created a mechanic where the player can jump on enemies to defeat them, introducing risk-reward combat alongside stealth.
-- Added health packs placed in strategic locations to encourage exploration and recovery after encounters.
-- Developed core systems including health, coin collection, and failure-reset logic, with a final victory screen showing total time and coins collected.
-- Balanced gameplay to support stealth, combat, and exploration-based strategies for varied playstyles.
+Crystal Quest is a 3D platformer designed with a progression-driven level structure and intuitive visual guidance. Built in Unreal Engine using Blueprint, the game challenges players to navigate dynamic environments through stealth, timing, and light combat mechanics.
 </div>
 </div>
 
