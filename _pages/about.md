@@ -68,6 +68,28 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
   </div>
 </div>
 
+# Projects
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3D Platformer Game</div><img src='images/projects/crystal_quest_cover.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Crystal Quest** [Unreal Engine, Blueprint Visual Scripting]
+
+- Designed and developed a 3D third-person platformer game in Unreal Engine using Blueprint, with a structured level progression from safe zones to increasingly challenging enemy encounters.
+- Created a smooth onboarding experience in the base area with no enemies, allowing players to practice movement and jumping while collecting coins for bonus points.
+- Built intuitive level guidance using visual cues like coins, terrain structure, and wind streams to direct players without needing a minimap or explicit UI.
+- Implemented AI enemies with distinct behaviors:
+  - *Patrolling guards* in the town
+  - *Mortar defenses* guarding fortress towers
+  - *Vision-based wizards* in the forest, requiring stealth and strategy
+- Created a mechanic where the player can jump on enemies to defeat them, introducing risk-reward combat alongside stealth.
+- Added health packs placed in strategic locations to encourage exploration and recovery after encounters.
+- Developed core systems including health, coin collection, and failure-reset logic, with a final victory screen showing total time and coins collected.
+- Balanced gameplay to support stealth, combat, and exploration-based strategies for varied playstyles.
+</div>
+</div>
+
+
 # Misc
 I enjoy photography, hiking, playing pool and chess, and spending time with my cat😼. I also like watching movies and reading in my free time.
 
