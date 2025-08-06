@@ -7,7 +7,7 @@ layout: default
 ---
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/images/projects/trajectory_prediction_cover.png" alt="Ego-Agent Trajectory Prediction" style="max-width: 65%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/images/projects/trajectory_prediction/cover.png" alt="Ego-Agent Trajectory Prediction" style="max-width: 65%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
 <h1 style="font-size: 1.75rem; font-weight: 700;">Ego-Agent Trajectory Prediction in Argoverse 2</h1>
@@ -25,15 +25,14 @@ Our model is inspired by the [ADAPT](https://kuis-ai.github.io/adapt/) architect
 
 We trained our model on agent-centric motion features: position (x, y), velocity (vx, vy), heading angle, and object type. **No map-based information (such as HD lanes, semantic raster, or traffic light states) was provided**, highlighting the model’s ability to perform under minimal context assumptions.
 
-[🔗 View GitHub Repo](https://github.com/mizoreto/Autonoumous_Driving_Motion_Forecast)
-
-[📄 View Report (PDF)](/images/projects/251B_Project_Final_Report.pdf)  
+- [🔗 View GitHub Repo](https://github.com/mizoreto/Autonoumous_Driving_Motion_Forecast)
+- [📄 View Report (PDF)](/images/projects/trajectory_prediction/Report.pdf)  
 
 ---
 
 ## Model Architecture
 
-![Model Architecture](/images/projects/trajectory_prediction_architecture.png)
+![Model Architecture](/images/projects/trajectory_prediction/architecture.png)
 
 ---
 

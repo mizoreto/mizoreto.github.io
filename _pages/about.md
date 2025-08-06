@@ -26,7 +26,7 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
   <div>
     <strong>University of California, San Diego</strong><br>
     <span style="color: gray;">Sep 2024 – Jun 2026</span><br>
-    M.S. in Computer Science
+    M.S. in Computer Science, GPA: 3.97
   </div>
 </div>
 
@@ -69,22 +69,33 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
 </div>
 
 # Projects
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Open-Vocabulary 3D Scene Understanding</div><img src='images/projects/fmgs_optimization/relmap_comparisons.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Autonomous Driving Forecasting</div><img src='images/projects/trajectory_prediction_cover.png' alt="sym" width="100%"></div></div>
+**[Keep your ARMS and LEGS: Assuaging VRAM and Training Speed constraints in Language Embedded 3D Gaussian Splats](#)** [3DGS, CLIP, DINO]
+
+Modified the [FMGS](https://xingxingzuo.github.io/fmgs/) pipeline to reduce VRAM usage and training time in open-vocabulary 3D scene understanding. Our approach replaces MLP-based decoding of multi-resolution hash encodings with CNNs applied to rendered feature fields, achieving **37% faster training** and **24% lower memory usage** while maintaining accuracy on the LERF benchmark.
+
+- [📄 View Report (PDF)](/images/projects/fmgs_optimization/Report.pdf)
+
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Autonomous Driving Forecasting</div><img src='images/projects/trajectory_prediction/cover.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Ego-Agent Trajectory Prediction in Argoverse 2](#)** [Python, PyTorch]
 
 Built an [ADAPT](https://kuis-ai.github.io/adapt/)-inspired deep learning model for ego-agent trajectory prediction in a Kaggle competition using a modified Argoverse 2 dataset. The model captures temporal and social context through LSTM and attention modules, and generates long-horizon forecasts via coarse-to-fine endpoint conditioning.
 
-[🔗 View GitHub Repo](https://github.com/mizoreto/Autonoumous_Driving_Motion_Forecast) 
-
-[📄 View Report (PDF)](images/projects/251B_Project_Final_Report.pdf)
+- [🔗 View GitHub Repo](https://github.com/mizoreto/Autonoumous_Driving_Motion_Forecast) 
+- [📄 View Report (PDF)](images/projects/trajectory_prediction/Report.pdf)
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3D Platformer Game</div><img src='images/projects/crystal_quest_cover.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3D Platformer Game</div><img src='images/projects/crystal_quest/crystal_quest_cover.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Crystal Quest](#)** [Unreal Engine, Blueprint Visual Scripting]

@@ -7,7 +7,7 @@ layout: default
 ---
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/images/projects/crystal_quest_cover.jpg" alt="Crystal Quest" style="max-width: 65%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/images/projects/crystal_quest/crystal_quest_cover.jpg" alt="Crystal Quest" style="max-width: 65%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
 <h1 style="font-size: 1.75rem; font-weight: 700;">Crystal Quest</h1>
@@ -16,8 +16,8 @@ layout: default
 
 <div style="text-align: center;">
   <video width="90%" controls preload="metadata" style="border-radius: 8px; margin: 20px 0;">
-    <source src="/images/projects/crystal_quest.mp4" type="video/mp4">
-    <p>Your browser does not support the video tag. <a href="/images/projects/crystal_quest.mp4" target="_blank">Click here to download the video</a></p>
+    <source src="/images/projects/crystal_quest/crystal_quest.mp4" type="video/mp4">
+    <p>Your browser does not support the video tag. <a href="/images/projects/crystal_quest/crystal_quest.mp4" target="_blank">Click here to download the video</a></p>
   </video>
 </div>
 
