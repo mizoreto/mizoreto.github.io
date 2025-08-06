@@ -54,6 +54,15 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = '/projects/fmgs_optimization/';
       });
     }
+    
+    // Handle Disney BSDF link
+    if (linkText.includes('Disney BSDF')) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        // Navigate to the project page in the current window
+        window.location.href = '/projects/disney-bsdf/';
+      });
+    }
   });
   
   // Handle navigation links

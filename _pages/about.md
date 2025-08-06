@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I'm a rising second-year Master's student in Computer Science at the University of California, San Diego, advised by Prof. [Tzu-Mao Li](https://cseweb.ucsd.edu/~tzli/). I received my B.S. degree in Computer Science, with a minor in Physics, from the University of Illinois Urbana-Champaign. I'm exploring computer graphics as a means to reconstruct, simulate, and reinterpret the physical world through computation. My current interests include rendering, perception, and scalable graphics systems, with growing curiosity in XR and robotics.
+I'm a rising second-year Master's student in Computer Science at the University of California, San Diego, advised by Prof. [Tzu-Mao Li](https://cseweb.ucsd.edu/~tzli/). I received my B.S. degree in Computer Science, with a minor in Physics, from the University of Illinois Urbana-Champaign. I'm broadly interested in computer graphics as a way to reconstruct, simulate, and reinterpret the physical world through computation. My current focus lies in rendering, perception, and scalable graphics systems. I'm also interested in computer vision, XR, and robotics, especially where they intersect with graphics.
 
 I'm always open to connecting and sharing ideas. Please feel free to reach out!
 
@@ -69,6 +69,17 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
 </div>
 
 # Projects
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Physically-Based Rendering</div><img src='images/projects/disney_bsdf/disney_bsdf.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[Disney BSDF](#)** [C++, Monte Carlo, Path Tracing, BSDF]
+
+Implemented the Disney principled BSDF in a Monte Carlo path tracer (Lajolla). Combined microfacet-based BRDFs with importance sampling to support a wide range of realistic materials, including metal, glass, clearcoat, and retroreflective fabrics.
+
+- [🔗 View GitHub Repo](https://github.com/mizoreto/lajolla-renderer) 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Open-Vocabulary 3D Scene Understanding</div><img src='images/projects/fmgs_optimization/relmap_comparisons.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
