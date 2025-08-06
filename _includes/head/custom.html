@@ -22,15 +22,30 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Find the Crystal Quest link
-  const crystalQuestLink = document.querySelector('a[href="#"]');
-  if (crystalQuestLink && crystalQuestLink.textContent.includes('Crystal Quest')) {
-    crystalQuestLink.addEventListener('click', function(e) {
-      e.preventDefault();
-      // Navigate to the project page in the current window
-      window.location.href = '/projects/crystal-quest/';
-    });
-  }
+  // Find all links with href="#"
+  const projectLinks = document.querySelectorAll('a[href="#"]');
+  
+  projectLinks.forEach(function(link) {
+    const linkText = link.textContent;
+    
+    // Handle Crystal Quest link
+    if (linkText.includes('Crystal Quest')) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        // Navigate to the project page in the current window
+        window.location.href = '/projects/crystal-quest/';
+      });
+    }
+    
+    // Handle Ego-Agent Trajectory Prediction link
+    if (linkText.includes('Ego-Agent Trajectory Prediction')) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        // Navigate to the project page in the current window
+        window.location.href = '/projects/ego-agent-trajectory-prediction/';
+      });
+    }
+  });
   
   // Handle navigation links
   const navLinks = document.querySelectorAll('.masthead__menu-item a');

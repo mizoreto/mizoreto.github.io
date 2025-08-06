@@ -70,12 +70,16 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
 
 # Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Autonomous Driving Forecasting</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Autonomous Driving Forecasting</div><img src='images/projects/trajectory_prediction_cover.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Ego-Agent Trajectory Prediction in Argoverse 2** [Python, PyTorch]
+**[Ego-Agent Trajectory Prediction in Argoverse 2](#)** [Python, PyTorch]
 
 Built an [ADAPT](https://kuis-ai.github.io/adapt/)-inspired deep learning model for ego-agent trajectory prediction in a Kaggle competition using a modified Argoverse 2 dataset. The model captures temporal and social context through LSTM and attention modules, and generates long-horizon forecasts via coarse-to-fine endpoint conditioning.
+
+[🔗 View GitHub Repo](https://github.com/mizoreto/Autonoumous_Driving_Motion_Forecast) 
+
+[📄 View Report (PDF)](images/projects/251B_Project_Final_Report.pdf)
 
 </div>
 </div>
@@ -91,7 +95,7 @@ Crystal Quest is a 3D platformer designed with a progression-driven level struct
 
 
 # Misc
-I enjoy photography, hiking, playing pool and chess, and spending time with my cat😼. I also like watching movies and reading in my free time.
+I enjoy photography, hiking, playing pool and chess, and hanging out with my cat, Yuki😼. I also like watching movies and reading in my free time.
 
 📸 My photography: [@mizoreto](https://www.instagram.com/mizoreto/)
 
