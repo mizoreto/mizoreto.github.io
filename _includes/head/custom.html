@@ -63,6 +63,15 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = '/projects/disney-bsdf/';
       });
     }
+    
+    // Handle Volumetric Path Tracing link
+    if (linkText.includes('Volumetric Path Tracing')) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        // Navigate to the project page in the current window
+        window.location.href = '/projects/volumetric-path-tracing/';
+      });
+    }
   });
   
   // Handle navigation links

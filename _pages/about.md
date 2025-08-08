@@ -69,6 +69,17 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
 </div>
 
 # Projects
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Physically-Based Rendering</div><img src='images/projects/volumetric_path_tracing/smoke.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[Volumetric Path Tracing](#)** [C++, Monte Carlo, Participating Media, MIS]
+
+Implemented a volumetric path tracer supporting absorption, scattering, heterogeneous volumes, and next event estimation. Features null-scattering and spectral extinction handling, integrated into the Lajolla physically-based renderer.
+
+- [🔗 View GitHub Repo](https://github.com/mizoreto/lajolla-renderer) 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Physically-Based Rendering</div><img src='images/projects/disney_bsdf/disney_bsdf.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

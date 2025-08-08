@@ -41,3 +41,5 @@ The implementation includes support for five core components:
 Each lobe supports **importance sampling**, **PDF evaluation**, and **physically-inspired parameterization**. These components are combined following the Disney 2015 shading model, with appropriate energy weights and inside-outside logic.
 - [🔗 View GitHub Repo](https://github.com/mizoreto/lajolla-renderer) 
 
+---
+
