@@ -22,6 +22,8 @@ I'm Jiayin, a rising second-year Master's student in Computer Science at the Uni
 
 I'm always open to connecting and sharing ideas. Please feel free to reach out!
 
+🌟<strong>I'm currently seeking full-time opprtunities starting in 2026 as a new graduate, so please feel free to reach out if you know of relevant roles!</strong>
+
 
 # Projects
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Open-Vocabulary 3D Scene Understanding</div><img src='images/projects/fmgs_optimization/relmap_comparisons.png' alt="sym" width="100%"></div></div>
