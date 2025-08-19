@@ -22,53 +22,6 @@ I'm Jiayin, a rising second-year Master's student in Computer Science at the Uni
 
 I'm always open to connecting and sharing ideas. Please feel free to reach out!
 
-# Education
-<div style="display: flex; align-items: center; margin-bottom: 1em;">
-  <img src="images/educations/ucsd_logo.jpeg" width="60" style="margin-right: 30px;">
-  <div>
-    <strong>University of California, San Diego</strong><br>
-    <span style="color: gray;">Sep 2024 – Jun 2026</span><br>
-    M.S. in Computer Science, GPA: 3.97
-  </div>
-</div>
-
-<div style="display: flex; align-items: center; margin-bottom: 1em;">
-  <img src="images/educations/uiuc_logo.jpeg" width="60" style="margin-right: 30px;">
-  <div>
-    <strong>University of Illinois Urbana-Champaign</strong><br>
-    <span style="color: gray;">Jan 2021 – May 2024</span><br>
-    B.S. in Computer Science, minor in Physics, GPA: 3.95
-  </div>
-</div>
-
-# Experience
-<div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
-  <img src="images/industries/aws_logo.jpeg" width="60" style="margin-right: 30px;">
-  <div>
-    <strong>Amazon Web Services (AWS)</strong><br>
-    <span style="color: gray;">Jun 2024 – Sep 2024 | Seattle, WA</span><br>
-    Software Development Engineer Intern<br>
-    <ul style="margin-top: 0.5em;">
-      <li>Designed and built an automated benchmarking framework, reducing a 1-2 day manual setup process to a 2-3 minute one-command execution, saving significant engineering time.</li>
-      <li>Developed a resource cleanup handler to simplify teardown of benchmarking environments, streamlining post-test workflows.</li>
-      <li><strong>Technologies</strong>: Python, Lambda, Step Functions, CDK, EC2</li>
-    </ul>
-  </div>
-</div>
-
-<div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
-  <img src="images/industries/aws_logo.jpeg" width="60" style="margin-right: 30px;">
-  <div>
-    <strong>Amazon Web Services (AWS)</strong><br>
-    <span style="color: gray;">Jun 2023 – Aug 2023 | Seattle, WA</span><br>
-    Software Development Engineer Intern 
-    <ul style="margin-top: 0.5em;">
-      <li>Developed a diagnostic library for Network Load Balancers that resolved noisy mismatch issues in dependency auditing systems, cutting false positive rate by 80%.</li>
-      <li>Implemented intelligent mismatch snapshot adjustment via Amazon S3 client APIs, enabling customizable time windows for more accurate and timely debugging.</li>
-      <li><strong>Technologies</strong>: Python, Amazon S3, EC2, SQL</li>
-    </ul>
-  </div>
-</div>
 
 # Projects
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Open-Vocabulary 3D Scene Understanding</div><img src='images/projects/fmgs_optimization/relmap_comparisons.png' alt="sym" width="100%"></div></div>
@@ -127,12 +80,63 @@ Crystal Quest is a 3D platformer designed with a progression-driven level struct
 </div>
 
 
+# Education
+<div style="display: flex; align-items: center; margin-bottom: 1em;">
+  <img src="images/educations/ucsd_logo.jpeg" width="60" style="margin-right: 30px;">
+  <div>
+    <strong>University of California, San Diego</strong><br>
+    <span style="color: gray;">Sep 2024 – Jun 2026</span><br>
+    M.S. in Computer Science | Track: Graphics and Vision | GPA: 3.97/4.0
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 1em;">
+  <img src="images/educations/uiuc_logo.jpeg" width="60" style="margin-right: 30px;">
+  <div>
+    <strong>University of Illinois Urbana-Champaign</strong><br>
+    <span style="color: gray;">Jan 2021 – May 2024</span><br>
+    B.S. in Computer Science | Minor in Physics | GPA: 3.95/4.0
+  </div>
+</div>
+
+
+# Experience
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+  <img src="images/industries/aws_logo.jpeg" width="60" style="margin-right: 30px;">
+  <div>
+    <strong>Amazon Web Services (AWS)</strong><br>
+    <span style="color: gray;">Jun 2024 – Sep 2024 | Seattle, WA</span><br>
+    Software Development Engineer Intern<br>
+    <ul style="margin-top: 0.5em;">
+      <li>Designed and built an automated benchmarking framework in <strong>Python</strong> using <strong>AWS Lambda</strong> and <strong>Step Functions</strong>, deployed via <strong>AWS CDK Pipelines</strong>, reducing a 1-2 day manual setup process to a 2-3 minute one-command execution (<strong>99%+ time reduction</strong>).</li>
+      <li>Developed a resource cleanup handler integrated into the <strong>state machine</strong>, automating teardown of EC2-based benchmarking environments and eliminating manual post-test cleanup.</li>
+    </ul>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+  <img src="images/industries/aws_logo.jpeg" width="60" style="margin-right: 30px;">
+  <div>
+    <strong>Amazon Web Services (AWS)</strong><br>
+    <span style="color: gray;">Jun 2023 – Aug 2023 | Seattle, WA</span><br>
+    Software Development Engineer Intern 
+    <ul style="margin-top: 0.5em;">
+      <li>Developed a generic diagnostic library in <strong>Python</strong> for Network Load Balancers, deployed on EC2, to detect and filter persistent mismatches across dependencies, reducing false positive reports from auditors by <strong>80%</strong>.</li>
+      <li>Implemented snapshot-based mismatch detection with <strong>Amazon S3 client APIs</strong> and <strong>SQL queries</strong>, enabling customizable time windows to filter persistent mismatches from eventual-consistency noise and improve debugging accuracy.</li>
+    </ul>
+  </div>
+</div>
+
+
 # Misc
 I enjoy photography, hiking, stargazing, playing pool and chess, and hanging out with my cat, Yuki😼. I also like watching movies and reading in my free time.
 
 📸 My photography: [@mizoreto](https://www.instagram.com/mizoreto/)
 
 🧶 My cat: [@_yukiiii_i](https://www.instagram.com/_yukiiii_i/)
+
+
+
 
 
 
