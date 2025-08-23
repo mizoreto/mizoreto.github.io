@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 Hey y'all!✨
 
-I'm Jiayin, a rising second-year Master's student in Computer Science at the University of California, San Diego, advised by Prof. [Tzu-Mao Li](https://cseweb.ucsd.edu/~tzli/). I received my B.S. degree in Computer Science, with a minor in Physics, from the University of Illinois Urbana-Champaign. I'm broadly interested in computer graphics as a way to reconstruct, simulate, and reinterpret the physical world through computation. My current focus lies in rendering, reconstruction, and scalable graphics systems. I'm also interested in computer vision, XR, and robotics, especially where they intersect with graphics.
+I'm Jiayin Meng, a rising second-year Master's student in Computer Science at the University of California, San Diego, advised by Prof. [Tzu-Mao Li](https://cseweb.ucsd.edu/~tzli/). I received my B.S. degree in Computer Science, with a minor in Physics, from the University of Illinois Urbana-Champaign. I'm broadly interested in computer graphics as a way to reconstruct, simulate, and reinterpret the physical world through computation. My current focus lies in rendering, reconstruction, and scalable graphics systems. I'm also interested in computer vision, XR, and robotics, especially where they intersect with graphics.
 
 I'm always open to connecting and sharing ideas. Please feel free to reach out!
 
