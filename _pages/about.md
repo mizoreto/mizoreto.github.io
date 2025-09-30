@@ -108,7 +108,7 @@ Crystal Quest is a 3D platformer designed with a progression-driven level struct
   <div>
     <strong>Amazon Web Services (AWS)</strong><br>
     <span style="color: gray;">Jun 2024 – Sep 2024 | Seattle, WA</span><br>
-    Software Development Engineer Intern<br>
+    Software Development Engineer Intern @ EC2 Networking Team
     <ul style="margin-top: 0.5em;">
       <li>Designed and built an automated benchmarking framework in <strong>Python</strong> using <strong>AWS Lambda</strong> and <strong>Step Functions</strong>, deployed via <strong>AWS CDK Pipelines</strong>, reducing a 1-2 day manual setup process to a 2-3 minute one-command execution (<strong>99%+ time reduction</strong>).</li>
       <li>Developed a resource cleanup handler integrated into the <strong>state machine</strong>, automating teardown of EC2-based benchmarking environments and eliminating manual post-test cleanup.</li>
@@ -121,7 +121,7 @@ Crystal Quest is a 3D platformer designed with a progression-driven level struct
   <div>
     <strong>Amazon Web Services (AWS)</strong><br>
     <span style="color: gray;">Jun 2023 – Aug 2023 | Seattle, WA</span><br>
-    Software Development Engineer Intern 
+    Software Development Engineer Intern @ EC2 Load Balancing Control Plane Team
     <ul style="margin-top: 0.5em;">
       <li>Developed a generic diagnostic library in <strong>Python</strong> for Network Load Balancers, deployed on EC2, to detect and filter persistent mismatches across dependencies, reducing false positive reports from auditors by <strong>80%</strong>.</li>
       <li>Implemented snapshot-based mismatch detection with <strong>Amazon S3 client APIs</strong> and <strong>SQL queries</strong>, enabling customizable time windows to filter persistent mismatches from eventual-consistency noise and improve debugging accuracy.</li>
