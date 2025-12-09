@@ -72,6 +72,18 @@ Built an [ADAPT](https://kuis-ai.github.io/adapt/)-inspired deep learning model 
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Puzzle-driven Narrative VRChat World</div><img src='images/projects/timebound_voyage/timebound_voyage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[The Timebound Voyage](#)** [Unity, UdonSharp, VRChat, Meta Quest 3]
+
+The Timebound Voyage is a pirate ship puzzle narrative where players explore a mysterious vessel‚ solve puzzles‚ and uncover the truth behind what happened on the ship as they search for its long-lost treasure․
+
+- [🎮 Play on VRChat](https://vrchat.com/home/launch?worldId=wrld_9965a642-c5d9-4a6b-a2b4-bbc6c9a4f436)
+- [▶️ Watch on YouTube](https://www.youtube.com/watch?v=LbBkaCxCsQY)
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">3D Platformer Game</div><img src='images/projects/crystal_quest/crystal_quest_cover.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

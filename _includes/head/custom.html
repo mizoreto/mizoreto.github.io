@@ -27,6 +27,15 @@ document.addEventListener('DOMContentLoaded', function() {
   
   projectLinks.forEach(function(link) {
     const linkText = link.textContent;
+
+    // Handle The Timebound Voyage link
+    if (linkText.includes('The Timebound Voyage')) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        // Navigate to the project page in the current window
+        window.location.href = '/projects/timebound-voyage/';
+      });
+    }
     
     // Handle Crystal Quest link
     if (linkText.includes('Crystal Quest')) {
