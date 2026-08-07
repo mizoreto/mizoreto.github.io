@@ -63,6 +63,20 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+  <img src="images/industries/origami_air_logo.jpeg" width="60" style="margin-right: 30px;">
+  <div>
+    <strong>Origami Air</strong><br>
+    <span style="color: gray;">Sep 2025 – Dec 2025 | San Diego, CA</span><br>
+    Technical Designer & VR Developer @ MAVERiC Studio
+    <ul style="margin-top: 0.5em;">
+      <li>Built and published a puzzle-driven narrative VRChat world in <strong>Unity</strong>, responsible for gameplay logic, interaction systems, and technical implementation.</li>
+      <li>Implemented puzzle mechanics, state-driven gameplay features, environment and interaction logic, and other event-driven VR systems using <strong>UdonSharp</strong>.</li>
+      <li>Integrated animations and timeline-based triggers into gameplay, enabling dynamic player states and cohesive event-driven sequences throughout the experience.</li>
+    </ul>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <img src="images/industries/aws_logo.jpeg" width="60" style="margin-right: 30px;">
   <div>
     <strong>Amazon Web Services (AWS)</strong><br>
