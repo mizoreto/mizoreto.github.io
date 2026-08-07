@@ -18,11 +18,75 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 Hey y'all!✨
 
-I'm Jiayin Meng, a second-year Master's student in Computer Science at the University of California, San Diego, advised by Prof. [Tzu-Mao Li](https://cseweb.ucsd.edu/~tzli/). I received my B.S. degree in Computer Science, with a minor in Physics, from the University of Illinois Urbana-Champaign. I'm broadly interested in computer graphics as a way to reconstruct, simulate, and reinterpret the physical world through computation. My current focus lies in rendering, reconstruction, and scalable graphics systems. I'm also interested in computer vision, XR, and robotics, especially where they intersect with graphics.
+I'm Jiayin Meng, currently a research intern at EPFL's [VILAB](https://vilab.epfl.ch/), advised by [Prof. Amir Zamir](https://vilab.epfl.ch/zamir/).
+
+I recently graduated from the University of California, San Diego with an M.S. in Computer Science, where I focused on graphics and vision. Previously, I received my B.S. degree in Computer Science, with a minor in Physics, from the University of Illinois Urbana-Champaign. 
+
+I'm broadly interested in visual computing at the intersection of computer vision, computer graphics, and generative modeling. My current interests focus on understanding, representing, and generating complex 3D scenes and worlds, with an emphasis on controllability, editability, and faithful expression of human intent. My goal is to develop intelligent, interactive digital worlds, with applications in games, film, animation, and XR.
 
 I'm always open to connecting and sharing ideas. Please feel free to reach out!
 
-🌟<strong>I'm currently seeking full-time opprtunities starting in 2026 as a new graduate, so please feel free to reach out if you know of relevant roles!</strong>
+🌟<strong>I'm currently seeking full-time opportunities starting in 2026 as a new graduate, so please feel free to reach out if you know of relevant roles!</strong>
+
+
+# Education
+<div style="display: flex; align-items: center; margin-bottom: 1em;">
+  <img src="images/educations/ucsd_logo.jpeg" width="60" style="margin-right: 30px;">
+  <div>
+    <strong>University of California, San Diego</strong><br>
+    <span style="color: gray;">Sep 2024 – Jun 2026</span><br>
+    M.S. in Computer Science | Track: Graphics and Vision | GPA: 3.98/4.0
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 1em;">
+  <img src="images/educations/uiuc_logo.jpeg" width="60" style="margin-right: 30px;">
+  <div>
+    <strong>University of Illinois Urbana-Champaign</strong><br>
+    <span style="color: gray;">Jan 2021 – May 2024</span><br>
+    B.S. in Computer Science | Minor in Physics | GPA: 3.95/4.0
+  </div>
+</div>
+
+
+# Experience
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+  <img src="images/industries/epfl_logo.jpeg" width="60" style="margin-right: 30px;">
+  <div>
+    <strong>École Polytechnique Fédérale de Lausanne (EPFL)</strong><br>
+    <span style="color: gray;">Jul 2026 – Present | Lausanne, Switzerland</span><br>
+    Research Intern @ VILAB
+    <ul style="margin-top: 0.5em;">
+      <li>Researching any-to-any multimodal foundation models, advised by Prof. Amir Zamir.</li>
+    </ul>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+  <img src="images/industries/aws_logo.jpeg" width="60" style="margin-right: 30px;">
+  <div>
+    <strong>Amazon Web Services (AWS)</strong><br>
+    <span style="color: gray;">Jun 2024 – Sep 2024 | Seattle, WA</span><br>
+    Software Development Engineer Intern @ EC2 Networking Team
+    <ul style="margin-top: 0.5em;">
+      <li>Designed and built an automated benchmarking framework in <strong>Python</strong> using <strong>AWS Lambda</strong> and <strong>Step Functions</strong>, deployed via <strong>AWS CDK Pipelines</strong>, reducing a 1-2 day manual setup process to a 2-3 minute one-command execution (<strong>99%+ time reduction</strong>).</li>
+      <li>Developed a resource cleanup handler integrated into the <strong>state machine</strong>, automating teardown of EC2-based benchmarking environments and eliminating manual post-test cleanup.</li>
+    </ul>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+  <img src="images/industries/aws_logo.jpeg" width="60" style="margin-right: 30px;">
+  <div>
+    <strong>Amazon Web Services (AWS)</strong><br>
+    <span style="color: gray;">Jun 2023 – Aug 2023 | Seattle, WA</span><br>
+    Software Development Engineer Intern @ EC2 Load Balancing Control Plane Team
+    <ul style="margin-top: 0.5em;">
+      <li>Developed a generic diagnostic library in <strong>Python</strong> for Network Load Balancers, deployed on EC2, to detect and filter persistent mismatches across dependencies, reducing false positive reports from auditors by <strong>80%</strong>.</li>
+      <li>Implemented snapshot-based mismatch detection with <strong>Amazon S3 client APIs</strong> and <strong>SQL queries</strong>, enabling customizable time windows to filter persistent mismatches from eventual-consistency noise and improve debugging accuracy.</li>
+    </ul>
+  </div>
+</div>
 
 
 # Projects
@@ -91,54 +155,6 @@ The Timebound Voyage is a pirate ship puzzle narrative where players explore a m
 
 Crystal Quest is a 3D platformer designed with a progression-driven level structure and intuitive visual guidance. Built in Unreal Engine using Blueprint, the game challenges players to navigate dynamic environments through stealth, timing, and light combat mechanics.
 </div>
-</div>
-
-
-# Education
-<div style="display: flex; align-items: center; margin-bottom: 1em;">
-  <img src="images/educations/ucsd_logo.jpeg" width="60" style="margin-right: 30px;">
-  <div>
-    <strong>University of California, San Diego</strong><br>
-    <span style="color: gray;">Sep 2024 – Jun 2026</span><br>
-    M.S. in Computer Science | Track: Graphics and Vision | GPA: 3.97/4.0
-  </div>
-</div>
-
-<div style="display: flex; align-items: center; margin-bottom: 1em;">
-  <img src="images/educations/uiuc_logo.jpeg" width="60" style="margin-right: 30px;">
-  <div>
-    <strong>University of Illinois Urbana-Champaign</strong><br>
-    <span style="color: gray;">Jan 2021 – May 2024</span><br>
-    B.S. in Computer Science | Minor in Physics | GPA: 3.95/4.0
-  </div>
-</div>
-
-
-# Experience
-<div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
-  <img src="images/industries/aws_logo.jpeg" width="60" style="margin-right: 30px;">
-  <div>
-    <strong>Amazon Web Services (AWS)</strong><br>
-    <span style="color: gray;">Jun 2024 – Sep 2024 | Seattle, WA</span><br>
-    Software Development Engineer Intern @ EC2 Networking Team
-    <ul style="margin-top: 0.5em;">
-      <li>Designed and built an automated benchmarking framework in <strong>Python</strong> using <strong>AWS Lambda</strong> and <strong>Step Functions</strong>, deployed via <strong>AWS CDK Pipelines</strong>, reducing a 1-2 day manual setup process to a 2-3 minute one-command execution (<strong>99%+ time reduction</strong>).</li>
-      <li>Developed a resource cleanup handler integrated into the <strong>state machine</strong>, automating teardown of EC2-based benchmarking environments and eliminating manual post-test cleanup.</li>
-    </ul>
-  </div>
-</div>
-
-<div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
-  <img src="images/industries/aws_logo.jpeg" width="60" style="margin-right: 30px;">
-  <div>
-    <strong>Amazon Web Services (AWS)</strong><br>
-    <span style="color: gray;">Jun 2023 – Aug 2023 | Seattle, WA</span><br>
-    Software Development Engineer Intern @ EC2 Load Balancing Control Plane Team
-    <ul style="margin-top: 0.5em;">
-      <li>Developed a generic diagnostic library in <strong>Python</strong> for Network Load Balancers, deployed on EC2, to detect and filter persistent mismatches across dependencies, reducing false positive reports from auditors by <strong>80%</strong>.</li>
-      <li>Implemented snapshot-based mismatch detection with <strong>Amazon S3 client APIs</strong> and <strong>SQL queries</strong>, enabling customizable time windows to filter persistent mismatches from eventual-consistency noise and improve debugging accuracy.</li>
-    </ul>
-  </div>
 </div>
 
 
