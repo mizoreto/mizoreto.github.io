@@ -22,7 +22,7 @@ I'm Jiayin Meng, currently a research intern at EPFL's [VILAB](https://vilab.epf
 
 I recently graduated from the University of California, San Diego with an M.S. in Computer Science, where I focused on graphics and vision. Previously, I received my B.S. degree in Computer Science, with a minor in Physics, from the University of Illinois Urbana-Champaign. 
 
-I'm broadly interested in visual computing at the intersection of computer vision, computer graphics, and generative modeling. My current interests focus on understanding, representing, and generating complex 3D scenes and worlds, with an emphasis on controllability, editability, and faithful expression of human intent. My goal is to develop intelligent, interactive digital worlds, with applications in games, film, animation, and XR.
+I'm broadly interested in visual computing at the intersection of computer vision, computer graphics, and generative modeling. My current interests focus on understanding, representing, and generating complex scenes and worlds, with an emphasis on controllability, editability, and faithful expression of human intent. My goal is to develop intelligent, interactive digital worlds, with applications in games, film, animation, and XR.
 
 I'm always open to connecting and sharing ideas. Please feel free to reach out!
 
