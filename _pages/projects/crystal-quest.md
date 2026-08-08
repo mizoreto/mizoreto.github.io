@@ -12,15 +12,6 @@ layout: default
 
 <h1 style="font-size: 1.75rem; font-weight: 700;">Crystal Quest</h1>
 
-## Introduction Video
-
-<div style="text-align: center;">
-  <video width="90%" controls preload="metadata" style="border-radius: 8px; margin: 20px 0;">
-    <source src="/images/projects/crystal_quest/crystal_quest.mp4" type="video/mp4">
-    <p>Your browser does not support the video tag. <a href="/images/projects/crystal_quest/crystal_quest.mp4" target="_blank">Click here to download the video</a></p>
-  </video>
-</div>
-
 ## Project Overview
 
 - Designed and developed a 3D third-person platformer game in Unreal Engine using Blueprint, with a structured level progression from safe zones to increasingly challenging enemy encounters.
