@@ -26,8 +26,6 @@ I'm broadly interested in visual computing at the intersection of computer visio
 
 I'm always open to connecting and sharing ideas. Please feel free to reach out!
 
-🌟<strong>I'm currently seeking full-time opportunities starting in 2026 as a new graduate, so please feel free to reach out if you know of relevant roles!</strong>
-
 
 # Education
 <div style="display: flex; align-items: center; margin-bottom: 1em;">
