@@ -45,6 +45,15 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = '/projects/crystal-quest/';
       });
     }
+
+    // Handle Multiscale NeRF link
+    if (linkText.includes('Multiscale NeRF')) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        // Navigate to the project page in the current window
+        window.location.href = '/projects/multiscale-nerf/';
+      });
+    }
     
     // Handle Ego-Agent Trajectory Prediction link
     if (linkText.includes('Ego-Agent Trajectory Prediction')) {

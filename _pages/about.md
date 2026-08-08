@@ -102,6 +102,17 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
 
 
 # Projects
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neural Rendering</div><img src='images/projects/multiscale_nerf/multiscaleNeRF.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[Multiscale NeRF](#)** [PyTorch, NeRF, Mip-NeRF]
+
+Investigated whether explicitly conditioning a vanilla NeRF on approximate pixel footprint, without changing the positional encoding or architecture, is sufficient to mitigate aliasing in multiscale rendering. Reimplemented the full coarse-to-fine NeRF pipeline in PyTorch and evaluated the scale-conditioned variant on a multiscale Blender benchmark, achieving PSNR and SSIM comparable to Mip-NeRF.
+
+- [📄 View Report (PDF)](/images/projects/multiscale_nerf/Report.pdf)
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Open-Vocabulary 3D Scene Understanding</div><img src='images/projects/fmgs_optimization/relmap_comparisons.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

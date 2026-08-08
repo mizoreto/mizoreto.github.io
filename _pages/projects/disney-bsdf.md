@@ -13,7 +13,7 @@ layout: default
 <h1 style="font-size: 1.75rem; font-weight: 700;">Disney BSDF</h1>
 
 ## Project Overview
-This project implements the **Disney principled BSDF** in a custom **Monte Carlo path tracer** ([Lajolla](https://github.com/BachiLi/lajolla_public)) for physically-based rendering. Inspired by production shaders in Blender, Unreal Engine, and Renderman, the Disney BSDF unifies several reflection and transmission lobes into a single flexible material model.
+This project implements the **Disney principled BSDF** in a custom **Monte Carlo path tracer** ([Lajolla](https://github.com/BachiLi/lajolla_public)) for physically-based rendering. The Disney BSDF unifies several reflection and transmission lobes into a single flexible material model.
 
 The implementation includes support for five core components:
 
