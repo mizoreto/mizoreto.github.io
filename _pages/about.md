@@ -105,76 +105,61 @@ I'm always open to connecting and sharing ideas. Please feel free to reach out!
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neural Rendering</div><img src='images/projects/multiscale_nerf/multiscaleNeRF.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Multiscale NeRF](#)** [PyTorch, NeRF, Mip-NeRF]
+<span class="paper-box-title">Multiscale NeRF</span> <span class="paper-box-tags">[PyTorch, NeRF, Mip-NeRF]</span>
 
 Investigated whether explicitly conditioning a vanilla NeRF on approximate pixel footprint, without changing the positional encoding or architecture, is sufficient to mitigate aliasing in multiscale rendering. Reimplemented the full coarse-to-fine NeRF pipeline in PyTorch and evaluated the scale-conditioned variant on a multiscale Blender benchmark, achieving PSNR and SSIM comparable to Mip-NeRF.
-
-- [📄 View Report (PDF)](/images/projects/multiscale_nerf/Report.pdf)
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Open-Vocabulary 3D Scene Understanding</div><img src='images/projects/fmgs_optimization/relmap_comparisons.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Keep your ARMS and LEGS: Assuaging VRAM and Training Speed constraints in Language Embedded 3D Gaussian Splats](#)** [3DGS, CLIP, DINO]
+<span class="paper-box-title">Keep your ARMS and LEGS: Assuaging VRAM and Training Speed constraints in Language Embedded 3D Gaussian Splats</span> <span class="paper-box-tags">[3DGS, CLIP, DINO]</span>
 
-Modified the [FMGS](https://xingxingzuo.github.io/fmgs/) pipeline to reduce VRAM usage and training time in open-vocabulary 3D scene understanding. Our approach replaces MLP-based decoding of multi-resolution hash encodings with CNNs applied to rendered feature fields, achieving **37% faster training** and **24% lower memory usage** while maintaining accuracy on the LERF benchmark.
-
-- [📄 View Report (PDF)](/images/projects/fmgs_optimization/Report.pdf)
+Modified the FMGS pipeline to reduce VRAM usage and training time in open-vocabulary 3D scene understanding. Our approach replaces MLP-based decoding of multi-resolution hash encodings with CNNs applied to rendered feature fields, achieving **37% faster training** and **24% lower memory usage** while maintaining accuracy on the LERF benchmark.
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Autonomous Driving Forecasting</div><img src='images/projects/trajectory_prediction/cover.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Ego-Agent Trajectory Prediction in Argoverse 2](#)** [Python, PyTorch]
+<span class="paper-box-title">Ego-Agent Trajectory Prediction in Argoverse 2</span> <span class="paper-box-tags">[Python, PyTorch]</span>
 
-Built an [ADAPT](https://kuis-ai.github.io/adapt/)-inspired deep learning model for ego-agent trajectory prediction in a Kaggle competition using a modified Argoverse 2 dataset. The model captures temporal and social context through LSTM and attention modules, and generates long-horizon forecasts via coarse-to-fine endpoint conditioning.
-
-- [🔗 View GitHub Repo](https://github.com/mizoreto/Autonoumous_Driving_Motion_Forecast) 
-- [📄 View Report (PDF)](images/projects/trajectory_prediction/Report.pdf)
-
+Built an ADAPT-inspired deep learning model for ego-agent trajectory prediction in a Kaggle competition using a modified Argoverse 2 dataset. The model captures temporal and social context through LSTM and attention modules, and generates long-horizon forecasts via coarse-to-fine endpoint conditioning.
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Puzzle-driven Narrative VRChat World</div><img src='images/projects/timebound_voyage/timebound_voyage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[The Timebound Voyage](#)** [Unity, UdonSharp, VRChat, Meta Quest 3]
+<span class="paper-box-title">The Timebound Voyage</span> <span class="paper-box-tags">[Unity, UdonSharp, VRChat, Meta Quest 3]</span>
 
 The Timebound Voyage is a pirate ship puzzle narrative where players explore a mysterious vessel‚ solve puzzles‚ and uncover the truth behind what happened on the ship as they search for its long-lost treasure․
-
-- [🎮 Play on VRChat](https://vrchat.com/home/launch?worldId=wrld_9965a642-c5d9-4a6b-a2b4-bbc6c9a4f436)
-- [▶️ Watch on YouTube](https://www.youtube.com/watch?v=LbBkaCxCsQY)
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Physically-Based Rendering</div><img src='images/projects/volumetric_path_tracing/smoke.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Volumetric Path Tracing](#)** [C++, Monte Carlo, Participating Media, MIS]
+<span class="paper-box-title">Volumetric Path Tracing</span> <span class="paper-box-tags">[C++, Monte Carlo, Participating Media, MIS]</span>
 
 Implemented a volumetric path tracer supporting absorption, scattering, heterogeneous volumes, and next event estimation. Features null-scattering and spectral extinction handling, integrated into the Lajolla physically-based renderer.
-
-- [🔗 View GitHub Repo](https://github.com/mizoreto/lajolla-renderer) 
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Physically-Based Rendering</div><img src='images/projects/disney_bsdf/disney_bsdf.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Disney BSDF](#)** [C++, Monte Carlo, Path Tracing, BSDF]
+<span class="paper-box-title">Disney BSDF</span> <span class="paper-box-tags">[C++, Monte Carlo, Path Tracing, BSDF]</span>
 
 Implemented the Disney principled BSDF in a Monte Carlo path tracer (Lajolla). Combined microfacet-based BRDFs with importance sampling to support a wide range of realistic materials, including metal, glass, clearcoat, and retroreflective fabrics.
-
-- [🔗 View GitHub Repo](https://github.com/mizoreto/lajolla-renderer) 
 </div>
 </div>
 
 <div class='paper-box paper-box--last'><div class='paper-box-image'><div><div class="badge">3D Platformer Game</div><img src='images/projects/crystal_quest/crystal_quest_cover.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Crystal Quest](#)** [Unreal Engine, Blueprint Visual Scripting]
+<span class="paper-box-title">Crystal Quest</span> <span class="paper-box-tags">[Unreal Engine, Blueprint Visual Scripting]</span>
 
 Crystal Quest is a 3D platformer designed with a progression-driven level structure and intuitive visual guidance. Built in Unreal Engine using Blueprint, the game challenges players to navigate dynamic environments through stealth, timing, and light combat mechanics.
 </div>

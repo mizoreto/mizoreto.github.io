@@ -33,76 +33,41 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Find all links with href="#"
-  const projectLinks = document.querySelectorAll('a[href="#"]');
-  
-  projectLinks.forEach(function(link) {
-    const linkText = link.textContent;
+  // Project cards -> detail page URLs (matched by title substring)
+  var projectUrls = {
+    'The Timebound Voyage': '/projects/timebound-voyage/',
+    'Crystal Quest': '/projects/crystal-quest/',
+    'Multiscale NeRF': '/projects/multiscale-nerf/',
+    'Ego-Agent Trajectory Prediction': '/projects/ego-agent-trajectory-prediction/',
+    'Keep your ARMS and LEGS': '/projects/fmgs_optimization/',
+    'Disney BSDF': '/projects/disney-bsdf/',
+    'Volumetric Path Tracing': '/projects/volumetric-path-tracing/'
+  };
 
-    // Handle The Timebound Voyage link
-    if (linkText.includes('The Timebound Voyage')) {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        // Navigate to the project page in the current window
-        window.location.href = '/projects/timebound-voyage/';
-      });
-    }
-    
-    // Handle Crystal Quest link
-    if (linkText.includes('Crystal Quest')) {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        // Navigate to the project page in the current window
-        window.location.href = '/projects/crystal-quest/';
-      });
-    }
+  document.querySelectorAll('.paper-box').forEach(function(card) {
+    var titleEl = card.querySelector('.paper-box-title');
+    if (!titleEl) return;
 
-    // Handle Multiscale NeRF link
-    if (linkText.includes('Multiscale NeRF')) {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        // Navigate to the project page in the current window
-        window.location.href = '/projects/multiscale-nerf/';
-      });
+    var url = null;
+    for (var title in projectUrls) {
+      if (titleEl.textContent.includes(title)) {
+        url = projectUrls[title];
+        break;
+      }
     }
-    
-    // Handle Ego-Agent Trajectory Prediction link
-    if (linkText.includes('Ego-Agent Trajectory Prediction')) {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        // Navigate to the project page in the current window
-        window.location.href = '/projects/ego-agent-trajectory-prediction/';
-      });
-    }
-    
-    // Handle Keep your ARMS and LEGS link
-    if (linkText.includes('Keep your ARMS and LEGS')) {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        // Navigate to the project page in the current window
-        window.location.href = '/projects/fmgs_optimization/';
-      });
-    }
-    
-    // Handle Disney BSDF link
-    if (linkText.includes('Disney BSDF')) {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        // Navigate to the project page in the current window
-        window.location.href = '/projects/disney-bsdf/';
-      });
-    }
-    
-    // Handle Volumetric Path Tracing link
-    if (linkText.includes('Volumetric Path Tracing')) {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        // Navigate to the project page in the current window
-        window.location.href = '/projects/volumetric-path-tracing/';
-      });
-    }
+    if (!url) return;
+
+    card.classList.add('paper-box--clickable');
+    card.addEventListener('click', function(e) {
+      // card descriptions no longer contain real links, but guard anyway
+      // in case one gets added later
+      var clickedLink = e.target.closest('a');
+      if (clickedLink) return;
+
+      window.location.href = url;
+    });
   });
-  
+
   // Handle navigation links
   const navLinks = document.querySelectorAll('.masthead__menu-item a');
   navLinks.forEach(function(link) {
