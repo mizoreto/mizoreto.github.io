@@ -53,21 +53,18 @@ $masthead-to: #f5dcc8;
     border-bottom: 1px #EEF0F3 solid;
     padding: 2em 0 2em 0;
 
-    &.paper-box--last {
-        border-bottom: none;
-    }
-
     &.paper-box--clickable {
         cursor: pointer;
-        border-radius: 10px;
-        margin-left: -1em;
-        margin-right: -1em;
-        padding-left: 1em;
-        padding-right: 1em;
-        transition: background-color 0.25s $ease-tasteful, box-shadow 0.25s $ease-tasteful, transform 0.25s $ease-tasteful;
+        border: 1px solid $border-color;
+        border-radius: 12px;
+        margin: 0 0 1.5em 0;
+        padding: 1.5em;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+        transition: background-color 0.25s $ease-tasteful, box-shadow 0.25s $ease-tasteful, transform 0.25s $ease-tasteful, border-color 0.25s $ease-tasteful;
 
         &:hover {
             background-color: $masthead-mid;
+            border-color: $masthead-mid;
             box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
             transform: translateY(-3px);
 
@@ -183,6 +180,8 @@ h1:before, .anchor:before {
 
 .masthead {
     background: linear-gradient(10deg, $background-color, $masthead-mid, $masthead-to);
+    border-bottom: none;
+    box-shadow: 0 8px 20px -12px rgba(0, 0, 0, 0.18);
 }
 
 .greedy-nav {
@@ -312,7 +311,8 @@ html[data-theme="dark"] {
 
     .masthead {
         background: linear-gradient(10deg, $dt-masthead-from, $dt-masthead-mid, $dt-masthead-to);
-        border-bottom-color: $dt-border;
+        border-bottom: none;
+        box-shadow: 0 8px 20px -10px rgba(0, 0, 0, 0.6);
     }
 
     .greedy-nav {
@@ -430,12 +430,18 @@ html[data-theme="dark"] {
             color: $dt-text-muted;
         }
 
-        &.paper-box--clickable:hover {
-            background-color: $dt-masthead-mid;
-            box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+        &.paper-box--clickable {
+            border-color: $dt-border;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 
-            .paper-box-title {
-                color: $dt-link;
+            &:hover {
+                background-color: $dt-masthead-mid;
+                border-color: $dt-masthead-mid;
+                box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+
+                .paper-box-title {
+                    color: $dt-link;
+                }
             }
         }
     }
