@@ -456,4 +456,14 @@ html[data-theme="dark"] {
         color: $dt-text;
         border-color: $dt-border;
     }
+
+    ::selection {
+        background: $dt-text;
+        color: $dt-bg;
+    }
+
+    ::-moz-selection {
+        background: $dt-text;
+        color: $dt-bg;
+    }
 }

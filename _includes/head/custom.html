@@ -78,6 +78,11 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         // Navigate to homepage with the anchor
         window.location.href = href;
+      } else if (window.location.pathname === '/' && href.startsWith('/#')) {
+        // Already on the homepage: the smooth-scroll plugin intercepts the
+        // click and animates the scroll itself, but never touches the URL,
+        // so the address bar never picks up the hash. Update it manually.
+        history.pushState(null, '', href);
       }
     });
   });

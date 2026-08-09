@@ -72,7 +72,7 @@ a {
 
 /* Apply focus state */
 
-a:focus {
+a:focus-visible {
   @extend %tab-focus;
 }
 
