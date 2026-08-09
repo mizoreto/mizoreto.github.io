@@ -107,8 +107,8 @@ h1:before, .anchor:before {
     position: absolute;
     margin-top: .5em;
     margin-left: -.5em;
-    color: white;
-    background-color: #00369f;
+    color: #fff7f0;
+    background-color: #7F8B72;
     font-size: .8em;
 }
 
@@ -193,7 +193,7 @@ html[data-theme="dark"] {
     $dt-text-muted   : #9aa0a6;
     $dt-border       : #34383c;
     $dt-divider      : mix(#fff, #16181a, 8%);
-    $dt-link         : #7fb0f0;
+    $dt-link         : #c49553;
     $dt-code-bg      : #232628;
 
     body {
