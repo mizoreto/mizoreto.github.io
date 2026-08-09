@@ -21,6 +21,11 @@ layout: compress
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
           <section class="page__content" itemprop="text">
+            {% if page.permalink contains '/projects/' %}
+            <a href="/#projects" class="back-to-projects" aria-label="Back to Projects" title="Back to Projects">
+              <i class="fas fa-arrow-left" aria-hidden="true"></i>
+            </a>
+            {% endif %}
             {{ content }}
           </section>
         </div>

@@ -48,7 +48,11 @@
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
-    
+
+    &.paper-box--last {
+        border-bottom: none;
+    }
+
 
     .paper-box-image{
         justify-content: center;
@@ -106,4 +110,242 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+.page__content a.back-to-projects {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25em;
+    height: 2.25em;
+    margin-bottom: 1.5em;
+    border: 1px solid $border-color;
+    border-radius: 50%;
+    color: $primary-color;
+    font-size: 1em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+    transition: transform 0.15s ease, background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+        color: $link-color;
+        border-color: $link-color;
+        background-color: mix(#fff, $link-color, 92%);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        transform: scale(1.08);
+        text-decoration: none;
+    }
+}
+
+/* ==========================================================================
+   THEME TOGGLE
+   ========================================================================== */
+
+.masthead__inner-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.masthead__menu {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.theme-toggle {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25em;
+    height: 2.25em;
+    margin-left: 1em;
+    border: 1px solid $border-color;
+    border-radius: 50%;
+    background: transparent;
+    color: $primary-color;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.15s ease, background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+        color: $link-color;
+        border-color: $link-color;
+        background-color: mix(#fff, $link-color, 92%);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        transform: scale(1.08);
+    }
+
+    .theme-toggle__icon--sun {
+        display: none;
+    }
+}
+
+/* ==========================================================================
+   DARK THEME
+   ========================================================================== */
+
+html[data-theme="dark"] {
+    $dt-bg           : #16181a;
+    $dt-bg-elevated  : #1f2224;
+    $dt-text         : #dcdedf;
+    $dt-text-muted   : #9aa0a6;
+    $dt-border       : #34383c;
+    $dt-divider      : mix(#fff, #16181a, 8%);
+    $dt-link         : #7fb0f0;
+    $dt-code-bg      : #232628;
+
+    body {
+        background-color: $dt-bg;
+        color: $dt-text;
+    }
+
+    a {
+        color: $dt-link;
+
+        &:hover {
+            color: mix(#fff, $dt-link, 20%);
+        }
+    }
+
+    .page__content a.back-to-projects,
+    .theme-toggle {
+        border-color: $dt-border;
+        color: $dt-text-muted;
+        box-shadow: none;
+
+        &:hover {
+            color: $dt-link;
+            border-color: $dt-link;
+            background-color: $dt-bg-elevated;
+        }
+    }
+
+    .theme-toggle__icon--sun {
+        display: inline-block;
+    }
+
+    .theme-toggle__icon--moon {
+        display: none;
+    }
+
+    .masthead {
+        background-color: $dt-bg-elevated;
+        border-bottom-color: $dt-border;
+    }
+
+    .greedy-nav {
+        background: $dt-bg-elevated;
+
+        a {
+            color: $dt-text;
+        }
+
+        .hidden-links {
+            background: $dt-bg-elevated;
+
+            a {
+                background: $dt-bg-elevated;
+            }
+        }
+
+        button svg {
+            fill: $dt-text;
+        }
+    }
+
+    .sidebar,
+    .page__related {
+        background: transparent;
+    }
+
+    .author__avatar img {
+        border-color: $dt-border;
+    }
+
+    .author__urls {
+        border-color: $dt-border;
+
+        // the solid card background is only ever shown below the $large
+        // breakpoint (the popover version) -- at $large and up the theme
+        // itself makes it background: transparent, and this needs to stay
+        // out of that rule's way or it'll paint a box behind the sidebar links.
+        @media (max-width: #{$large - 1px}) {
+            background: $dt-bg-elevated;
+            box-shadow: 0 0 10px rgba(#000, 0.4);
+
+            &:after {
+                border-color: $dt-bg-elevated transparent;
+            }
+        }
+
+        &:before {
+            border-color: $dt-border transparent;
+        }
+
+        a {
+            color: $dt-text;
+
+            &:hover {
+                color: $dt-link;
+            }
+        }
+
+        // icons (map pin, envelope, LinkedIn, Github, ...) normally carry
+        // per-service brand colors -- on wide screens where this list sits
+        // inline in the sidebar (not the small popover card), flatten them
+        // to match the surrounding text instead.
+        @include breakpoint($large) {
+            i {
+                color: $dt-text;
+            }
+        }
+    }
+
+    .page__footer {
+        background-color: $dt-bg-elevated;
+        border-top-color: $dt-border;
+        color: $dt-text-muted;
+
+        a {
+            color: $dt-text;
+        }
+    }
+
+    pre, code {
+        background-color: $dt-code-bg;
+        color: $dt-text;
+    }
+
+    blockquote {
+        color: $dt-text-muted;
+        border-left-color: $dt-border;
+    }
+
+    hr {
+        border-top-color: $dt-border;
+    }
+
+    thead {
+        background-color: $dt-bg-elevated;
+    }
+
+    td {
+        border-bottom-color: $dt-border;
+    }
+
+    .notice, .notice--primary, .notice--info, .notice--warning, .notice--success, .notice--danger {
+        background-color: $dt-bg-elevated;
+    }
+
+    .paper-box {
+        border-bottom-color: $dt-divider;
+    }
+
+    input, textarea, select {
+        background-color: $dt-bg-elevated;
+        color: $dt-text;
+        border-color: $dt-border;
+    }
 }

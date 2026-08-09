@@ -124,28 +124,6 @@ Modified the [FMGS](https://xingxingzuo.github.io/fmgs/) pipeline to reduce VRAM
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Physically-Based Rendering</div><img src='images/projects/volumetric_path_tracing/smoke.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**[Volumetric Path Tracing](#)** [C++, Monte Carlo, Participating Media, MIS]
-
-Implemented a volumetric path tracer supporting absorption, scattering, heterogeneous volumes, and next event estimation. Features null-scattering and spectral extinction handling, integrated into the Lajolla physically-based renderer.
-
-- [🔗 View GitHub Repo](https://github.com/mizoreto/lajolla-renderer) 
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Physically-Based Rendering</div><img src='images/projects/disney_bsdf/disney_bsdf.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**[Disney BSDF](#)** [C++, Monte Carlo, Path Tracing, BSDF]
-
-Implemented the Disney principled BSDF in a Monte Carlo path tracer (Lajolla). Combined microfacet-based BRDFs with importance sampling to support a wide range of realistic materials, including metal, glass, clearcoat, and retroreflective fabrics.
-
-- [🔗 View GitHub Repo](https://github.com/mizoreto/lajolla-renderer) 
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Autonomous Driving Forecasting</div><img src='images/projects/trajectory_prediction/cover.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -171,7 +149,29 @@ The Timebound Voyage is a pirate ship puzzle narrative where players explore a m
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3D Platformer Game</div><img src='images/projects/crystal_quest/crystal_quest_cover.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Physically-Based Rendering</div><img src='images/projects/volumetric_path_tracing/smoke.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[Volumetric Path Tracing](#)** [C++, Monte Carlo, Participating Media, MIS]
+
+Implemented a volumetric path tracer supporting absorption, scattering, heterogeneous volumes, and next event estimation. Features null-scattering and spectral extinction handling, integrated into the Lajolla physically-based renderer.
+
+- [🔗 View GitHub Repo](https://github.com/mizoreto/lajolla-renderer) 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Physically-Based Rendering</div><img src='images/projects/disney_bsdf/disney_bsdf.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[Disney BSDF](#)** [C++, Monte Carlo, Path Tracing, BSDF]
+
+Implemented the Disney principled BSDF in a Monte Carlo path tracer (Lajolla). Combined microfacet-based BRDFs with importance sampling to support a wide range of realistic materials, including metal, glass, clearcoat, and retroreflective fabrics.
+
+- [🔗 View GitHub Repo](https://github.com/mizoreto/lajolla-renderer) 
+</div>
+</div>
+
+<div class='paper-box paper-box--last'><div class='paper-box-image'><div><div class="badge">3D Platformer Game</div><img src='images/projects/crystal_quest/crystal_quest_cover.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Crystal Quest](#)** [Unreal Engine, Blueprint Visual Scripting]
